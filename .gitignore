@@ -136,3 +136,5 @@ docker-compose*.yml
 
 # Custom scripts (not to be committed)
 scripts/commit-changes.ps1
+
+commit-changes.ps1
