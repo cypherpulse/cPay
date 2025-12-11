@@ -4,10 +4,10 @@
 [![React](https://img.shields.io/badge/React-19.2.1-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4.21-646CFF.svg)](https://vitejs.dev/)
-[![Celo](https://img.shields.io/badge/Celo-Network-green.svg)](https://celo.org/)
+[![CELO](https://img.shields.io/badge/CELO-Network-green.svg)](https://celo.org/)
 [![Reown AppKit](https://img.shields.io/badge/Reown-AppKit-FF6B35.svg)](https://docs.reown.com/appkit)
 
-A decentralized payment application frontend built on the Celo blockchain, enabling seamless peer-to-peer transactions with a modern, responsive interface.
+A decentralized payment application frontend built on the CELO blockchain, enabling seamless peer-to-peer transactions with a modern, responsive interface.
 
 ## Table of Contents
 
@@ -26,6 +26,7 @@ A decentralized payment application frontend built on the Celo blockchain, enabl
   - [Usage](#usage)
   - [Project Structure](#project-structure)
   - [Scripts](#scripts)
+    - [Custom Scripts](#custom-scripts)
   - [Contributing](#contributing)
     - [Guidelines](#guidelines)
   - [Code of Conduct](#code-of-conduct)
@@ -41,14 +42,14 @@ A decentralized payment application frontend built on the Celo blockchain, enabl
 
 ## Overview
 
-cPay is a decentralized payment application designed for the Celo blockchain ecosystem. It provides users with a secure, user-friendly platform to manage wallets, send and receive payments, create invoices, and interact with social transaction feeds. Built with modern web technologies, cPay emphasizes accessibility, performance, and blockchain integration.
+cPay is a decentralized payment application designed for the CELO blockchain ecosystem. It provides users with a secure, user-friendly platform to manage wallets, send and receive payments, create invoices, and interact with social transaction feeds. Built with modern web technologies, cPay emphasizes accessibility, performance, and blockchain integration.
 
-The application currently operates in mock mode for development, simulating real blockchain interactions. It can be configured for production use with live Celo networks.
+The application currently operates in mock mode for development, simulating real blockchain interactions. It can be configured for production use with live CELO networks.
 
 ## Features
 
 ### Core Functionality
-- **Wallet Integration**: Seamless connection to Celo-compatible wallets via Reown AppKit.
+- **Wallet Integration**: Seamless connection to CELO-compatible wallets via Reown AppKit.
 - **Payment Operations**:
   - Send stablecoin payments (cUSD) to addresses or users.
   - Request payments through customizable invoices.
@@ -72,7 +73,7 @@ The application currently operates in mock mode for development, simulating real
 | **Build Tool** | Vite |
 | **Styling** | Tailwind CSS, Radix UI |
 | **State Management** | TanStack Query, React Hooks |
-| **Blockchain** | Celo, Reown AppKit, Ethers.js |
+| **Blockchain** | CELO, Reown AppKit, Ethers.js |
 | **Forms & Validation** | React Hook Form, Zod |
 | **Icons & Animations** | Lucide React, Framer Motion |
 | **Development** | ESLint, TypeScript, pnpm |
@@ -93,7 +94,7 @@ The application follows a modular, component-driven architecture:
 ### Prerequisites
 - **Node.js**: Version 18 or higher.
 - **Package Manager**: pnpm (recommended), or npm/yarn.
-- **Wallet**: Celo-compatible wallet (e.g., Valora, MetaMask).
+- **Wallet**: CELO-compatible wallet (e.g., Valora, MetaMask).
 
 ### Installation
 
@@ -123,7 +124,7 @@ The application follows a modular, component-driven architecture:
 
 ## Usage
 
-1. **Connect Wallet**: Authenticate with your Celo wallet.
+1. **Connect Wallet**: Authenticate with your CELO wallet.
 2. **Dashboard**: Monitor balances and recent activity.
 3. **Payments**: Send funds or generate payment requests.
 4. **Invoices**: Manage outgoing and incoming invoices.
@@ -251,7 +252,7 @@ Licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-- **Celo Foundation**: For the blockchain infrastructure.
+- **CELO Foundation**: For the blockchain infrastructure.
 - **Open-Source Community**: For libraries like React, Vite, and Radix UI.
 - **Contributors**: Thanks to all who help build cPay.
 
